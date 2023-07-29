@@ -1,0 +1,20 @@
+spring:
+  jpa:
+    show-sql: true
+    open-in-view: false
+    hibernate:
+      ddl-auto: create
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.PostgreSQL95Dialect
+        format_sql: true
+        default_batch_fetch_size: 100
+
+  datasource:
+    url: jdbc:postgresql://localhost:5433/tutor-test
+    driver-class-name: org.postgresql.Driver
+    username: root
+    password: password
+
+  flyway:
+    enabled: false
