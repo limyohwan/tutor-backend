@@ -103,3 +103,6 @@ docker-compose up -d
 4. serivce = 서비스 유닛 테스트
 5. integration = 통합 테스트
 6. data = 각 도메인별 테스트 데이터를 받을 수 있는 클래스가 위치한 패키지, 상속하여 사용
+
+# 결과
+- 합격
